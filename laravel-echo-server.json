@@ -1,0 +1,40 @@
+{
+	"authHost": "https://api.wuay.com.co/api",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "6189b6d6e187880c",
+			"key": "89bef53608b3dc3a7e761bfbc714e5ae"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {
+			"host": "127.0.0.1",
+			"port": "6379"
+		},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": false,
+	"host": null,
+	"port": "6001",
+	"protocol": "https",
+	"socketio": {},
+	"secureOptions": 67108864,
+	"sslCertPath": "ws.crt",
+	"sslKeyPath": "ws.key",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": true
+	},
+	"apiOriginAllow": {
+		"allowCors": true,
+		"allowOrigin": "*",
+		"allowMethods": "",
+		"allowHeaders": ""
+	}
+}
